@@ -1,0 +1,63 @@
+
+.todo-list-container::before{
+  content: "Todo List";
+  font-size: 2cm;
+  padding-bottom: 1cm;
+}
+
+.todo-list-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 1cm;
+}
+.todo-input{
+  font-size: .6cm;
+  border-radius: .2cm;
+  box-shadow: none;
+  border: none;
+  padding: 5px;
+}
+.btn{
+  padding:10px;
+  margin-bottom:4px ;
+
+}
+.todo-text{
+  font-size: .8cm;
+  text-align: center;
+  color: white;
+ 
+}
+.complete-task-div{
+ border: 2px solid green;
+ background-color: rgb(59, 74, 59);
+
+}
+.task-div{
+  background-color: rgb(101, 76, 76);
+  border: 2px solid red;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tdiv{
+  border-radius: .5cm;
+}
+.tik{
+  color: rgb(6, 250, 6);
+  height: 1cm;
+  width: 1cm;
+  padding: 4px;
+}
+.cross{
+  color: red;
+  height: 1cm;
+  width: 1cm;
+  padding: 4px;
+
+}

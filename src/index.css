@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background-color: grey;
+  
+}
+html{
+  font-size: 100%;
+  background-color: grey;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  background-color: grey;
+  right: 45%;
+  font-weight: 600;
+ 
+
+}
